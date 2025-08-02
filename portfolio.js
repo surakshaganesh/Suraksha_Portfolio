@@ -3,9 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const navLinks = document.getElementById("nav-links");
 
     menuToggle.addEventListener("click", function () {
-        navLinks.classList.toggle("active");  // Toggle menu visibility
+        navLinks.classList.toggle("active");
     });
 });
+
+
 
 document.querySelectorAll('nav a').forEach(link => {
     link.addEventListener('click', function(e) {
