@@ -14,8 +14,8 @@ p,
 
 
 body {
-   background-color: rgb(2, 2, 65);
-   color: white;
+   background-color:#0e1423;
+   color: white ;
 }
 
 .left {
@@ -41,7 +41,7 @@ nav {
    display: flex;
    align-items: center;
    justify-content: space-around;
-   background-color: #e10971;
+   background-color: #18202e;
    padding: 20px;
    flex-wrap: wrap;
 }
@@ -65,13 +65,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-   color: rgb(2, 2, 65);
+   color: #0e1423;;
 }
 
 
 .CV {
    padding: 10px 15px;
-   background: rgb(2, 2, 65);
+   background: #0e1423;;
    transition: background-color 0.3s ease;
    border: none;
    outline: none;
@@ -84,7 +84,6 @@ nav ul li a:hover {
 
 .CV:hover {
    transform: scale(1.08);
-   box-shadow: 2px 2px 2px white;
 }
 
 .aboutsection {
@@ -140,8 +139,8 @@ nav ul li a:hover {
 hr {
    border: 0;
    background: #e10971;
-   height: 1.6px;
-   margin: 70px 84px;
+   height: 1px;
+   margin: 70px 70px;
 }
 
 h1 {
@@ -258,7 +257,7 @@ h1 {
 .project-card {
    background: transparent;
    border-radius: 10px;
-   box-shadow: 0 2px 2px #e10971;
+   box-shadow: 0 0px 2px #e10971;
    position: relative;
    transition: transform 0.3s ease, box-shadow 0.3s ease;
    padding: 5px;
@@ -268,7 +267,7 @@ h1 {
 
 .project-card:hover {
    transform: scale(1.08);
-   box-shadow: 0 2px 2px #e10971;
+   box-shadow: 0 0px 2px #e10971;
 }
 
 .project-header {
@@ -299,7 +298,7 @@ h1 {
 .project-link {
    display: inline-block;
    padding: 10px 15px;
-   background: rgb(2, 2, 65);
+   background: #0e1423;;
    transition: background-color 0.3s ease;
    border: none;
    outline: none;
@@ -342,7 +341,7 @@ h1 {
 .card {
    background: transparent;
    border-radius: 10px;
-   box-shadow: 0 2px 2px #e10971;
+   box-shadow: 0 0px 2px #e10971;
    position: relative;
    height: fit-content;
    transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -353,7 +352,7 @@ h1 {
 
 .card:hover {
    transform: scale(1.08);
-   box-shadow: 0 2px 2px #e10971;
+   box-shadow: 0 0px 2px #e10971;
 }
 
 .Activity-header {
@@ -379,13 +378,6 @@ h1 {
    line-height: 1.6;
    color: white;
 }
-
-h3 {
-   margin-left: 80px;
-   font-size: 25px;
-   color: #e10971;
-}
-
 
 .GIT {
    border-radius: 8px;
@@ -459,7 +451,7 @@ h2 {
 
 .btn button:hover {
    cursor: pointer;
-   background-color: rgb(38, 38, 132);
+   background-color: #0e1423;;
 }
 
 .footer {
@@ -468,7 +460,7 @@ h2 {
    display: flex;
    font-size: small;
    height: 10vh;
-   background-color: #e10971;
+   background-color: #18202e;
 
    .CR {
       font-size: small;
@@ -485,7 +477,7 @@ h2 {
       flex-direction: column;
       gap: 10px;
       margin-top: 10px;
-      background: #e10971;
+      background: #18202e;
       padding: 10px;
    }
 
