@@ -230,8 +230,8 @@ h1 {
 
 /* Hover color for headings */
 .skills-category h3:hover {
-  color: #940c4e;
-  transition: color 0.3s ease;
+     transform: translateY(-8px);
+
 }
 
 /* --- Skill Grid --- */

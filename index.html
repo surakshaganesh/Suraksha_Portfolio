@@ -18,8 +18,8 @@
                 <ul id="nav-links">
                     <li><a href="#" data-target="about">About</a></li>
                     <li><a href="#" data-target="skills">Skills</a></li>
+                    <li><a href="#" data-target="internship">Internship</a></li>
                     <li><a href="#" data-target="projects">Projects</a></li>
-                    <li><a href="#" data-target="Activities">Activities</a></li>
                     <li><a href="#" data-target="contact">Contact Me</a></li>
                 </ul>
             </div>
@@ -30,9 +30,9 @@
     <main>
         <section class="aboutsection">
             <div class="leftsec">
-                Hi I am SURAKSHA. I am a Passonaite
+                Hi, I'm Suraksha
                 <span id="element"></span>
-                <p>Passonaite learner and open to explore new things</p>
+                <p>Passionate learner and always eager to explore new challenges</p>
 
                 <ul>
                     <li><a href="https://www.linkedin.com/in/suraksha-g-a31467289" target="_blank"><i
@@ -40,8 +40,7 @@
                     <li><a href="https://github.com/surakshaganesh" target="_blank"><i class='bx bxl-github'></i></a>
                     </li>
                 </ul>
-                <a class="CV" href="assests/SURAKSHA_resume.pdf" target="_blank" download="SURAKSHA_resume.pdf">Download
-                    CV</a>
+                <a class="CV" href="assests/Suraksha_G_CV.pdf" target="_blank" download="Suraksha_G_CV.pdf">Download CV</a>
 
             </div>
 
@@ -54,8 +53,8 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['Web Developer', ' and ', 'Cyber Security engineer'],
-            typeSpeed: 60,
+            strings: ['Cyber Security Engineer', 'SOC Analyst'],
+            typeSpeed: 80,
         });
     </script>
 
@@ -161,7 +160,7 @@
                 </div>
                 <div class="skill">
                     <i class='bx bxs-certification'></i>
-                    <p>ISO/IEC 27001</p>
+                    <p>MITTRE ATT&CK</p>
                 </div>
             </div>
         </div>
@@ -184,22 +183,6 @@
                 </div>
                 <div class="skill"><i class='bx bxs-data'></i>
                     <p>SQL</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Data & Analytics -->
-        <div class="skills-category">
-            <h3>Data & Analytics</h3>
-            <div class="skills-container">
-                <div class="skill"><i class='bx bxl-microsoft'></i>
-                    <p>Power BI</p>
-                </div>
-                <div class="skill"><i class='bx bxl-python'></i>
-                    <p>Data Cleaning</p>
-                </div>
-                <div class="skill"><i class='bx bxs-bar-chart-alt-2'></i>
-                    <p>Data Visualization</p>
                 </div>
             </div>
         </div>
@@ -250,22 +233,68 @@
 
     <hr>
 
+    <!-- INTERNSHIP SECTION -->
+    <div class="act">INTERNSHIP</div>
+    <section id="internship" class="activities">
+        <div class="grid" style="justify-content: center;">
+            <div class="card" style="max-width: 750px; width: 100%;">
+                <div class="Activity-header">Edunet Foundation &mdash; Cyber Security Intern</div>
+                <div class="content">
+                    <p class="description">
+                        <strong>Key Responsibilities &amp; Work Done:</strong><br><br>
+                        Performed security monitoring and analysis using logs, network data, and security events to identify potential threats and suspicious behaviour.<br>
+                        Conducted alert triage and incident investigation exercises — documenting findings, severity assessments, and escalation recommendations following incident response procedures.<br>
+                        Analysed network traffic and system logs using <strong>Wireshark</strong>, <strong>Nmap</strong>, and Linux-based security tools to support threat detection and troubleshooting activities.<br>
+                        Maintained security documentation, vulnerability records, and investigation reports to support operational visibility and compliance requirements.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
     <div class="PR">MY PROJECTS</div>
 
     <section id="projects" class="projects-section">
         <div class="projects-grid">
 
+             <!-- SOC Lab -->
+            <div class="project-card">
+                <div class="project-header">SOC Monitoring & Threat Detection Lab | Splunk SIEM</div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Built and configured a functional SOC lab using Splunk SIEM to ingest and monitor security events and alerts generated from DNS, HTTP, SSH, and DHCP log streams. 
+                        Developed detection rules, correlation searches, dashboards, and alerting workflows to support continuous security monitoring and threat detection. Investigated alerts and identified indicators of compromise (IOCs) during security event analysis.
+                        Performed end-to-end SOC workflows: threat detection, alert triage, incident investigation, and response documentation.
+                    </p>
+                    <a href="https://github.com/surakshaganesh/SOC-Lab.git"
+                        target="_blank" class="project-link">Github link</a>
+                </div>
+            </div>
+            
             <!-- AI powered Vulnerability Scanner -->
             <div class="project-card">
                 <div class="project-header">AI-Powered Web Application Vulnerability Scanner</div>
                 <div class="project-content">
                     <p class="project-description">
-                        🧠 Tech Stack: Python (Flask), Scikit-learn, BeautifulSoup, PostgreSQL, MongoDB, HTML, CSS,
-                        JavaScript<br>
-                        An AI-powered web security scanner designed to identify common web application vulnerabilities aligned with the OWASP Top 10. The system performs automated input analysis and anomaly detection using machine learning to support vulnerability classification and reduce false positives. It simulates SOC-style vulnerability assessment workflows and generates structured findings mapped to CVE/OWASP standards, along with remediation-focused insights for improving application security.
+                        An AI-powered web security scanner designed to identify common web application vulnerabilities aligned with the OWASP Top 10. The system performs automated input analysis and anomaly detection using machine learning to support vulnerability classification and reduce false positives.Generates structured findings mapped to CVE/OWASP standards, along with remediation-focused insights for improving application security.
                     </p>
                     <a href="https://github.com/surakshaganesh/AI-Powered-Web-Application-Vulnerability-Scanner.git"
                         target="_blank" class="project-link">Github link</a>
+                </div>
+            </div>
+
+             <!--Phishing URL Detector-->
+            <div class="project-card">
+                <div class="project-header"> Phishing URL Detector</div>
+                <div class="project-content">
+                    <p class="project-description">🧠Tech Stack: Python, Flask, Scikit-learn, HTML, CSS,
+                        JavaScript.<br> <br>
+                        A machine learning-based web application that detects phishing websites by analyzing extracted URL features. Trained a Random Forest classifier on 48 URL-based features to classify links as legitimate or malicious. The application simulates email security alert triage by validating URLs in real time, helping users identify potential phishing threats and improve security awareness.
+                    </p>
+                    <a href="https://github.com/surakshaganesh/Phishing-URL-detector.git" target="_blank"
+                        class="project-link">Github link</a>
                 </div>
             </div>
 
@@ -275,7 +304,7 @@
                 <div class="project-content">
                     <p class="project-description">
                         🧠Tech Stack: Python, Scikit-learn, Streamlit, Pandas, NumPy, OpenAI, XGBoost, Pandas, NumPy,
-                        Plotly, Docker<br>
+                        Plotly, Docker<br> <br>
                         An AI-driven web application that predicts traffic congestion and carbon emissions to recommend optimized travel routes. Implemented machine learning models for traffic analysis, interactive data visualizations for insights, and an AI chatbot using OpenAI to enhance user interaction. Containerized the application using Docker for scalable and portable deployment.
                     </p>
                     <a href="https://github.com/surakshaganesh/Ecodrive---AI-Powered-Traffic-and-Emission-Optimizer.git"
@@ -285,24 +314,12 @@
                 </div>
             </div>
 
-            <!--Phishing URL Detector-->
-            <div class="project-card">
-                <div class="project-header"> Phishing URL Detector</div>
-                <div class="project-content">
-                    <p class="project-description">🧠Tech Stack: Python, Flask, Scikit-learn, HTML, CSS,
-                        JavaScript.<br>A machine learning-based web application that detects phishing websites by analyzing extracted URL features. Trained a Random Forest classifier on 48 URL-based features to classify links as legitimate or malicious. The application simulates email security alert triage by validating URLs in real time, helping users identify potential phishing threats and improve security awareness.
-                    </p>
-                    <a href="https://github.com/surakshaganesh/Phishing-URL-detector.git" target="_blank"
-                        class="project-link">Github link</a>
-                </div>
-            </div>
-
             <!-- Gym Website -->
             <div class="project-card">
                 <div class="project-header">Gym Website</div>
                 <div class="project-content">
                     <p class="project-description">
-                        🧠 Tech Stack:HTML, CSS, JavaScript, and SQL<br>
+                        🧠 Tech Stack:HTML, CSS, JavaScript, and SQL<br> <br>
                         A full-stack, responsive gym management platform that allows users to securely register, browse trainer profiles, book training sessions, and view a gallery. Implemented dynamic trainer listings, booking functionality with date and time selection, and a mobile-friendly UI. Focused on clean UI design, database integration, and smooth user workflows.
                     </p>
                     <a href="https://github.com/surakshaganesh/Gym_Website.git" target="_blank"
@@ -314,52 +331,58 @@
 
     <hr>
 
-    <div class="act">Achievements and Certifications</div>
+    <!-- ACHIEVEMENTS SECTION -->
+    <div class="act">ACHIEVEMENTS</div>
     <section id="Activities" class="activities">
         <div class="grid">
             <!-- hackathon winner -->
             <div class="card">
-                <div class="Activity-header">PAN INDIA hackathon - Winner</div>
+                <div class="Activity-header">PAN INDIA Hackathon &mdash; Winner</div>
                 <div class="content">
                     <p class="description">
-                        🏆 1st Place – Hackathon Winner<br>
+                        🏆 <strong>1st Place &ndash; Hackathon Winner</strong><br>
                         Event: Hackathon organized by Axile.X Group of Companies<br>
-                        Date: March 9, 2025<br>
-                        secured 1st place in a competitive hackathon focused on web development. Demonstrated strong
-                        problem-solving skills, creativity, and technical knowledge.
-                        This achievement reflects my ability to work independently, think critically, and deliver
-                        results in high-pressure environments.
+                        Date: March 9, 2025<br><br>
+                        Secured 1st place in a competitive hackathon focused on web development. Demonstrated strong
+                        problem-solving skills, creativity, and technical knowledge. This achievement reflects my
+                        ability to work independently, think critically, and deliver results in high-pressure environments.
                     </p>
                     <a class="CV" href="assests_2/SUraksha.win.pdf" target="_blank">View Certificate</a>
                 </div>
             </div>
             <!-- HACKATHON-Technical management -->
             <div class="card">
-                <div class="Activity-header">HACKATHON-Technical Management</div>
+                <div class="Activity-header">HACKATHON &mdash; Technical Management</div>
                 <div class="content">
                     <p class="description">
-                        As part of my College hackathon - CYBER CRAFT,me and my team
-                        was responsible for overseeing the smooth execution of the event's technical aspects. My role
-                        included managing the collection of GitHub project links from participants, ensuring proper
-                        submission tracking, and coordinating with teams to resolve any technical challenges. I also
-                        assisted in maintaining a structured workflow, facilitating communication between organizers and
-                        participants.
+                        🛠️ As part of my college hackathon <strong>CYBER CRAFT</strong>, I and my team were responsible
+                        for overseeing the smooth execution of the event's technical aspects. My role included managing
+                        the collection of GitHub project links from participants, ensuring proper submission tracking,
+                        and coordinating with teams to resolve any technical challenges. Also assisted in maintaining a
+                        structured workflow and facilitating communication between organizers and participants.
                     </p>
                     <a class="CV" href="assests_2/p3.jpg" target="_blank">View Certificate</a>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <div class="act">CERTIFICATIONS</div>
+    <section id="certifications" class="activities">
+        <div class="grid">
             <!-- Job simulation -->
             <div class="card">
-                <div class="Activity-header">TATA Group-Cyber Security Analyst Job Simulation</div>
+                <div class="Activity-header">TATA Group &mdash; Cyber Security Analyst Job Simulation</div>
                 <div class="content">
                     <p class="description">
-                        Completed a job simulation involving identity and access management (IAM) for
-                        Tata Consultancy Services, collaborating with a Cybersecurity Consulting
-                        team.
-                        Acquired expertise in IAM principles, cybersecurity best practices, and
-                        strategic alignment with business objectives.
-                        Delivered comprehensive documentation and presentations, showcasing the
-                        ability to communicate complex technical concepts effectively..
+                        🏅 Completed a job simulation involving identity and access management (IAM) for
+                        Tata Consultancy Services, collaborating with a Cybersecurity Consulting team.<br><br>
+                        Acquired expertise in IAM principles, cybersecurity best practices, and strategic alignment
+                        with business objectives. Delivered comprehensive documentation and presentations showcasing
+                        the ability to communicate complex technical concepts effectively.
                     </p>
                     <a class="CV"
                         href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Tata/gmf3ypEXBj2wvfQWC_Tata%20Group_q7bB4dCBP4mvb3Wwr_1708513111399_completion_certificate.pdf"
@@ -368,16 +391,61 @@
             </div>
             <!-- Student development program -->
             <div class="card">
-                <div class="Activity-header">SDP by ExcelR</div>
+                <div class="Activity-header">SDP by ExcelR &mdash; Cyber Security</div>
                 <div class="content">
                     <p class="description">
-                        Completed a 15-day, 30-hour Student Development Program on Cyber Security. Attained 85%
-                        practical proficiency
-                        in threat detection, ethical hacking, and network defense
+                        🎓 Completed a 15-day, 30-hour Student Development Program on Cyber Security.<br><br>
+                        Attained 85% practical proficiency in threat detection, ethical hacking, and network defense.
                     </p>
                     <a class="CV"
                         href="https://www.linkedin.com/posts/suraksha-a31467289_sdp-certificate-activity-7332783463248404480-2vt6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYDWwUBex7tNWy60BLtL4ffhfAy2NrKpk8"
                         target="_blank">View Certificate</a>
+                </div>
+            </div>
+            
+            <!-- NMAP Mastery -->
+            <div class="card">
+                <div class="Activity-header">NMAP Mastery &mdash; Udemy</div>
+                <div class="content">
+                    <p class="description">
+                        🎓 Completed <strong>NMAP Mastery</strong> course on Udemy.<br><br>
+                        Developed hands-on proficiency in network scanning, host discovery, port scanning, OS detection,
+                        and service version enumeration using Nmap.
+                    </p>
+                </div>
+            </div>
+            <!-- Metasploit -->
+            <div class="card">
+                <div class="Activity-header">Metasploit &mdash; Udemy</div>
+                <div class="content">
+                    <p class="description">
+                        🎓 Completed <strong>Metasploit</strong> course on Udemy.<br><br>
+                        Gained practical experience in penetration testing workflows, exploit development, payload
+                        delivery, and post-exploitation techniques using the Metasploit Framework.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- PAPER PUBLICATION SECTION -->
+    <div class="act">PAPER PUBLICATION</div>
+    <section id="publication" class="activities">
+        <div class="grid" style="justify-content: center;">
+            <div class="card" style="max-width: 750px; width: 100%;">
+                <div class="Activity-header">AI-Powered Web Application Vulnerability Scanner</div>
+                <div class="content">
+                    <p class="description">
+                        📄 <strong>Journal:</strong> IJETS (International Journal of Engineering, Technology and Science)<br>
+                        📚 <strong>Volume:</strong> XIII &nbsp;|&nbsp; <strong>Issue:</strong> III<br><br>
+                        Published research on an AI-powered vulnerability scanner targeting <strong>OWASP Top 10</strong>
+                        vulnerabilities including SQL Injection, XSS, and broken authentication. The paper presents an
+                        ML-based classification model that reduces false positives by prioritising high-confidence
+                        vulnerability findings, along with structured incident documentation and remediation workflows.
+                    </p>
+                    <a class="CV" href="https://www.ijets.in/Downloads/Published/E02026003008.pdf" target="_blank">View Publication</a>
                 </div>
             </div>
         </div>
